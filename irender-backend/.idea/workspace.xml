@@ -7,6 +7,10 @@
     <ignored path="$PROJECT_DIR$/cloud/api-gateway/target/" />
     <ignored path="$PROJECT_DIR$/cloud/service-discovery/target/" />
     <ignored path="$PROJECT_DIR$/services/tranfer-service/target/" />
+    <ignored path="$PROJECT_DIR$/cloud/services-discovery/target/" />
+    <ignored path="$PROJECT_DIR$/cloud/api-proxy/target/" />
+    <ignored path="$PROJECT_DIR$/services/render-service/target/" />
+    <ignored path="$PROJECT_DIR$/services/auth-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,104 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud/service-discovery/src/main/java/com/cloud/proxy/servicediscovery/ServiceDiscoveryApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/render-service/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/tranfer-service/src/main/java/com/service/tranferservice/TranferServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="42" column="1" selection-start-line="23" selection-end-line="42" selection-end-column="1" />
+              <folding>
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/render-service/src/main/java/com/service/renderservice/RenderServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/tranfer-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="61" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/render-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="61" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/auth-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,16 +140,30 @@
         <option value="$PROJECT_DIR$/cloud/api-gateway/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/cloud/api-gateway/src/main/java/com/cloud/proxy/filter/SimpleCORSFilter.java" />
         <option value="$PROJECT_DIR$/cloud/api-gateway/src/main/java/com/cloud/proxy/filter/RouterAuthFilter.java" />
-        <option value="$PROJECT_DIR$/cloud/service-discovery/src/main/java/com/cloud/proxy/servicediscovery/ServiceDiscoveryApplication.java" />
         <option value="$PROJECT_DIR$/services/TranferService/src/controller/TranferFileController.java" />
         <option value="$PROJECT_DIR$/services/TranferService/src/application/TranferServiceApplication.java" />
-        <option value="$PROJECT_DIR$/services/tranfer-service/src/main/java/com/service/tranferservice/controllers/TestController.java" />
         <option value="$PROJECT_DIR$/services/tranfer-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/services/tranfer-service/src/main/resources/bootstrap.yaml" />
-        <option value="$PROJECT_DIR$/services/tranfer-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/services/tranfer-service/src/main/java/com/service/tranferservice/controllers/TestController.java" />
         <option value="$PROJECT_DIR$/cloud/service-discovery/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/services/tranfer-service/src/main/java/com/service/tranferservice/TranferServiceApplication.java" />
+        <option value="$PROJECT_DIR$/services/tranfer-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/services/tranfer-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud/services-discovery/src/main/java/cloud/proxy/servicesdiscovery/ServicesDiscoveryApplication.java" />
+        <option value="$PROJECT_DIR$/cloud/services-discovery/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud/services-discovery/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud/services-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/service-discovery/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud/service-discovery/src/main/resources/application.propeties" />
+        <option value="$PROJECT_DIR$/cloud/service-discovery/src/main/java/com/cloud/proxy/servicediscovery/ServiceDiscoveryApplication.java" />
         <option value="$PROJECT_DIR$/services/tranfer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/tranfer-service/src/main/java/com/service/tranferservice/TranferServiceApplication.java" />
+        <option value="$PROJECT_DIR$/services/tranfer-service/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/services/render-service/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/services/render-service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java" />
+        <option value="$PROJECT_DIR$/services/render-service/src/main/java/com/service/renderservice/RenderServiceApplication.java" />
+        <option value="$PROJECT_DIR$/services/auth-service/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/services/auth-service/pom.xml" />
       </list>
     </option>
   </component>
@@ -66,12 +180,25 @@
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -94,7 +221,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -108,7 +234,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/services/tranfer-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/services/auth-service/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -116,6 +242,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WORK\Projects\irender\irender-backend\services\auth-service\src\main\resources" />
+      <recent name="E:\WORK\Projects\irender\irender-backend\services\render-service\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -139,6 +271,20 @@
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.proxy.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.service.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="render-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.service.renderservice.RenderServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,16 +315,17 @@
       <option name="presentableId" value="Default" />
       <updated>1562207777375</updated>
       <workItem from="1562207779937" duration="13846000" />
+      <workItem from="1562225561216" duration="8824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13865000" />
+    <option name="totallyTimeSpent" value="22670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18456376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -202,8 +349,8 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="15" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49932885" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49932885" visible="true" weight="0.48725212" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -223,7 +370,13 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/api-gateway/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/cloud/api-gateway/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cloud/api-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud/api-gateway/src/main/java/com/cloud/proxy/filter/RouteLoggingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -243,7 +396,13 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud/api-gateway/src/main/resources/bootstrap.yml" />
+    <entry file="file://$PROJECT_DIR$/cloud/api-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/TranferService/TranferService.iml" />
     <entry file="file://$PROJECT_DIR$/cloud/api-gateway/src/main/java/com/cloud/proxy/filter/RouterAuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -252,7 +411,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud/api-gateway/src/main/java/com/cloud/proxy/apigateway/ApiGatewayApplication.java" />
+    <entry file="file://$PROJECT_DIR$/cloud/api-gateway/src/main/java/com/cloud/proxy/apigateway/ApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/TranferService/src/controller/TranferFileController.java" />
     <entry file="file://$PROJECT_DIR$/cloud/api-gateway/src/main/java/com/cloud/proxy/filter/SimpleCORSFilter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -267,24 +441,163 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/TranferService/src/application/TranferServiceApplication.java" />
-    <entry file="file://$PROJECT_DIR$/services/tranfer-service/src/main/java/com/service/tranferservice/controllers/TestController.java">
+    <entry file="file://$PROJECT_DIR$/services/tranfer-service/src/test/java/com/service/tranferservice/TranferServiceApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="8" selection-end-column="46" />
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud/service-discovery/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/cloud/service-discovery/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/cloud/service-discovery/src/main/java/com/cloud/proxy/servicediscovery/ServiceDiscoveryApplication.java" />
-    <entry file="file://$PROJECT_DIR$/services/tranfer-service/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/services/tranfer-service/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/services/tranfer-service/src/main/java/com/service/tranferservice/TranferServiceApplication.java" />
+    <entry file="file://$PROJECT_DIR$/services/tranfer-service/src/main/java/com/service/tranferservice/controllers/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/tranfer-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/services-discovery/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/services-discovery/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/services-discovery/src/main/java/cloud/proxy/servicesdiscovery/ServicesDiscoveryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/tranfer-service/src/main/java/com/irender/service/tranferservice/TranferServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/service-discovery/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/service-discovery/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/service-discovery/src/main/java/com/cloud/proxy/servicediscovery/ServiceDiscoveryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/tranfer-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/render-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/tranfer-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/tranfer-service/src/main/java/com/service/tranferservice/TranferServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="42" column="1" selection-start-line="23" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/render-service/src/main/java/com/service/renderservice/RenderServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/render-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -335,11 +648,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>irenderbackend</last-edited>
+          <last-edited>tranfer-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

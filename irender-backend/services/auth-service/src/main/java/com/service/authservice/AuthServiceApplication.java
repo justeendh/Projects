@@ -1,4 +1,4 @@
-package com.service.tranferservice;
+package com.service.authservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -12,14 +12,13 @@ import java.util.List;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class TranferServiceApplication {
+public class AuthServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TranferServiceApplication.class, args);
+        SpringApplication.run(AuthServiceApplication.class, args);
     }
 
 }
-
 
 @RestController
 class ServiceInstanceRestController {
