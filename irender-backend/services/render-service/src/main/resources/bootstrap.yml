@@ -1,0 +1,7 @@
+
+spring:
+  cloud:
+    config:
+      name : RenderService
+      profile: default
+      uri: http://localhost:8888/

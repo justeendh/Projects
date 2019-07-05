@@ -1,9 +1,7 @@
-
 spring:
-  application:
-    name: api-gateway
   cloud:
     config:
-      name : ApiGateway
+      name : AuthService
       profile: default
       uri: http://localhost:8888/
+

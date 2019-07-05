@@ -1,0 +1,29 @@
+
+server:
+  port: 8060
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761
+    fetchRegistr: true
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
+
+zuul:
+  prefix: /irender
+  routes:
+    irender-auth:
+      serviceId: irender-auth
+      path: /auth/**
+      url: http://localhost:8083
+    irender-tranfer:
+      serviceId: irender-tranfer
+      path: /tranfer/**
+      url: http://localhost:8081
+    irender-render:
+      serviceId: irender-render
+      path: /render/**
+      url: http://localhost:8082

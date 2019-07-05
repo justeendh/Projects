@@ -1,9 +1,9 @@
 
 spring:
   application:
-    name: api-gateway
+    name: service-discovery
   cloud:
     config:
-      name : ApiGateway
+      name : ServiceDiscovery
       profile: default
       uri: http://localhost:8888/
