@@ -1,4 +1,4 @@
-package com.cloud.proxy.apigateway;
+package com.cloud.gateway.apigateway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

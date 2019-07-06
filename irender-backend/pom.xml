@@ -6,7 +6,18 @@
 
     <groupId>irender-backend</groupId>
     <artifactId>irender-backend</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>cloud/api-gateway</module>
+        <module>cloud/server-configs</module>
+        <module>cloud/proxy-service</module>
+        <module>cloud/service-discovery</module>
+        <module>services/auth-service</module>
+        <module>services/render-service</module>
+        <module>services/tranfer-service</module>
+        <module>commons/common-storage</module>
+    </modules>
 
 
 </project>

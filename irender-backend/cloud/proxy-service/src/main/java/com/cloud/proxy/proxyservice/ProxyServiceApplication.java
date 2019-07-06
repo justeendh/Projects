@@ -1,4 +1,4 @@
-package com.cloud.proxy.apigateway;
+package com.cloud.proxy.proxyservice;
 
 import com.cloud.proxy.filter.RouteLoggingFilter;
 import com.cloud.proxy.filter.RouterAuthFilter;
@@ -10,10 +10,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @SpringBootApplication
 @EnableZuulProxy
-public class ApiGatewayApplication {
+public class ProxyServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ApiGatewayApplication.class, args);
+        SpringApplication.run(ProxyServiceApplication.class, args);
     }
 
     @Bean

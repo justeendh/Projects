@@ -1,6 +1,9 @@
+
 spring:
+  application:
+    name: proxy-service
   cloud:
     config:
-      name : ApiGateway
+      name : ProxyService
       profile: default
       uri: http://localhost:8888/
