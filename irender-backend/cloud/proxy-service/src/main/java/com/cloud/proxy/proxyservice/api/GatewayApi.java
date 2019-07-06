@@ -1,8 +1,7 @@
-package com.cloud.proxy.api;
+package com.cloud.proxy.proxyservice.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,18 +13,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Configuration
-@EnableConfigurationProperties({ZuulProperties.class})
 public class GatewayApi {
-
+    @Autowired
     private ZuulProperties zuulProperties;
 
     @Value("${zuul.prefix}")
     private String zuulPrefix;
-
-    @Autowired
-    public GatewayApi(ZuulProperties zuulProperties) {
-        this.zuulProperties = zuulProperties;
-    }
 
     @Primary
     @Bean

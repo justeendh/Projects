@@ -16,14 +16,14 @@ zuul:
   prefix: /irender
   routes:
     irender-auth:
-      serviceId: irender-auth
+      serviceId: auth-service
       path: /auth/**
       url: http://localhost:8083
     irender-tranfer:
-      serviceId: irender-tranfer
+      serviceId: tranfer-service
       path: /tranfer/**
       url: http://localhost:8081
     irender-render:
-      serviceId: irender-render
+      serviceId: render-service
       path: /render/**
       url: http://localhost:8082
