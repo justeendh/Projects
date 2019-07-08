@@ -11,6 +11,7 @@
         <module name="tranfer-service" />
         <module name="proxy-service" />
         <module name="common-storage" />
+        <module name="irender-core" />
         <module name="api-gateway" />
         <module name="render-service" />
         <module name="auth-service" />
@@ -27,6 +28,7 @@
       <module name="api-gateway" options="-parameters" />
       <module name="api-proxy" options="-parameters" />
       <module name="auth-service" options="-parameters" />
+      <module name="irender-core" options="-parameters" />
       <module name="proxy-service" options="-parameters" />
       <module name="render-service" options="-parameters" />
       <module name="server-configs" options="-parameters" />

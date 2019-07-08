@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/cloud/proxy-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/server-configs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/service-discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/irender-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/auth-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/render-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/tranfer-service" charset="UTF-8" />
