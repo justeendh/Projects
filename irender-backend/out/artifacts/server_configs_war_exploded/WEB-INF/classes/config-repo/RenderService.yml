@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: render-service
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761
