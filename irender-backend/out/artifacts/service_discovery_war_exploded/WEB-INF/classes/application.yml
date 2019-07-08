@@ -1,9 +1,0 @@
-
-spring:
-  application:
-    name: service-discovery
-  cloud:
-    config:
-      name : ServiceDiscovery
-      profile: default
-      uri: http://localhost:8888/

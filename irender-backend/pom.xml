@@ -17,6 +17,7 @@
         <module>services/render-service</module>
         <module>services/tranfer-service</module>
         <module>commons/common-storage</module>
+        <module>commons/irender-sql</module>
     </modules>
 
 

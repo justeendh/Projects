@@ -1,7 +1,0 @@
-
-spring:
-  cloud:
-    config:
-      name : TranferService
-      profile: default
-      uri: http://localhost:8888/
