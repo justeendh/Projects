@@ -5,3 +5,11 @@ spring:
       profile: default
       uri: http://localhost:8888/
 
+
+app:
+  security:
+    jwt:
+      tokenExpirationTime: 3600000
+      tokenIssuer : irender-jwt-tokenIssuer
+      tokenSigningKey : irender-tokenSigningKey-201907
+      refreshTokenExpTime : 3600000

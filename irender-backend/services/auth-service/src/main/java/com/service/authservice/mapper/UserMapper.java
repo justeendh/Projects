@@ -20,6 +20,10 @@ public class UserMapper implements BaseMapper<UserDto, UserEntity> {
       map().setTimezone(source.getTimeZone());
       map().setUserName(source.getUsername());
       map().setUserRole(source.getRole());
+//      map().setFirstName(source.getFirstName());
+//      map().setLastName(source.getLastName());
+//      map().setMiddleName(source.getMiddleName());
+//      map().setFirstName(source.getFirstName());
     }
   };
   PropertyMap<UserEntity, UserDto> mapEntity2Dto = new PropertyMap<UserEntity, UserDto>() {
@@ -33,6 +37,7 @@ public class UserMapper implements BaseMapper<UserDto, UserEntity> {
 
   public UserMapper() {
     this.mapper = new ModelMapper();
+    this.mapper.getConfiguration().setAmbiguityIgnored(true);
   }
 
   @Override

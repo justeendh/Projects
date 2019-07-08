@@ -59,7 +59,7 @@ public class TokenController {
     @GetMapping("/detail")
     public ResponseEntity<UserDto> detailInfo(@RequestHeader HttpHeaders headers) {
         log.info(headers.get("Authorization") + "" + headers.get("Authentication") + "" + headers.get("authentication") + "" + headers.get("authorization"));
-        List<String> auth = headers.get("Authentication");
+        List<String> auth = headers.get("Authorization");
         if (auth == null || auth.isEmpty()) {
             return ResponseEntity.badRequest().build();
         }

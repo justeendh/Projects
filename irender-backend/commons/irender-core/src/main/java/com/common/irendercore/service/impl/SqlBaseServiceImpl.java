@@ -1,4 +1,4 @@
-package vn.edu.topica.topkid.core.service.impl;
+package com.common.irendercore.service.impl;
 
 import com.common.irendercore.dto.MyList;
 import com.common.irendercore.dto.MyPage;

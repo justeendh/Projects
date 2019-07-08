@@ -16,8 +16,6 @@ public class MyEntity {
   @Id
   private String id;
 
-  private String name;
-
   @Column(name = "created_at")
   private Long createdAt;
 

@@ -4,6 +4,19 @@ server:
 spring:
   application:
     name: auth-service
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://mysql.irender.vn:3306/irenderdb
+    username: root
+    password: 7y6c4a0k#
+    jpa:
+      hibernate:
+        ddl-auto: create-drop
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MariaDBDialect
+          format_sql: false
+        show-sql: true
 eureka:
   client:
     service-url:

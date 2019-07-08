@@ -13,7 +13,7 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import vn.edu.topica.topkid.core.service.impl.SqlBaseServiceImpl;
+import com.common.irendercore.service.impl.SqlBaseServiceImpl;
 
 @Service
 @Slf4j
