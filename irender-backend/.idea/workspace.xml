@@ -6,19 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a962a6c6-cb64-4a7a-86dc-8f991190d427" name="Default Changelist" comment="update code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/ProxyServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/ProxyServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/RouteLoggingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/RouteLoggingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/RouterAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/RouterAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/SimpleCORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/SimpleCORSFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/proxy-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/proxy-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/server-configs/src/main/resources/config-repo/ProxyService.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/server-configs/src/main/resources/config-repo/ProxyService.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/service/JwtTokenFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/service/JwtTokenFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/irender-security/target/classes/com/common/irendersecurity/service/JwtTokenFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-security/target/classes/com/common/irendersecurity/service/JwtTokenFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="a962a6c6-cb64-4a7a-86dc-8f991190d427" name="Default Changelist" comment="update code" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud/api-gateway/target/" />
@@ -49,14 +37,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/RouterAuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+            <state relative-caret-position="182">
+              <caret line="66" column="57" lean-forward="true" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/SimpleCORSFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -110,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/controller/TokenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="488">
               <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -309,300 +306,12 @@
             <path>
               <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
               <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxy" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxy" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="filter" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxy" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxyservice" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="resources" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="server-configs" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="server-configs" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="server-configs" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="server-configs" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="resources" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="server-configs" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="resources" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="config-repo" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
               <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="config" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="constant" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="exception" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="model" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="service" type="72ca9032:PsiDirectoryNodeCustom" />
             </path>
             <path>
               <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
               <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
               <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="config" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="controller" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="exception" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="resources" type="72ca9032:PsiDirectoryNodeCustom" />
             </path>
           </expand>
           <select />
@@ -738,7 +447,7 @@
       <workItem from="1562549627773" duration="36486000" />
       <workItem from="1562646880645" duration="1465000" />
       <workItem from="1562649752175" duration="505000" />
-      <workItem from="1562650356654" duration="7108000" />
+      <workItem from="1562650356654" duration="8503000" />
     </task>
     <task id="LOCAL-00001" summary="add SwaggerResource">
       <created>1562395664890</created>
@@ -800,7 +509,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101866000" />
+    <option name="totallyTimeSpent" value="103261000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -816,7 +525,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.509915" visible="true" weight="0.19189766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.509915" visible="true" weight="0.19189766" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -841,7 +550,7 @@
       <window_info anchor="bottom" auto_hide="true" id="Version Control" order="13" sideWeight="0.17449665" weight="0.3286119" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.36353946" weight="0.32719395" />
-      <window_info active="true" anchor="bottom" x="26" y="294" width="1484" height="235" id="Run Dashboard" order="16" sideWeight="0.63646054" side_tool="true" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" x="26" y="294" width="1484" height="235" id="Run Dashboard" order="16" sideWeight="0.63646054" side_tool="true" visible="true" weight="0.32719395" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -894,10 +603,10 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/controller/TokenController.java</url>
-          <line>67</line>
+          <url>file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/SimpleCORSFilter.java</url>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="37" />
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1185,13 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/SimpleCORSFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/dto/UserToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1294,16 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/controller/TokenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/service/JwtTokenFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1314,13 +1006,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/RouterAuthFilter.java">
+    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/controller/TokenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        <state relative-caret-position="488">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/RouterAuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="66" column="57" lean-forward="true" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/SimpleCORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
