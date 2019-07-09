@@ -1,14 +1,11 @@
 package com.service.tranferservice;
 
+import com.common.irendercore.config.EnableIrenderCore;
 import com.google.common.base.Predicates;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
@@ -18,11 +15,10 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-import java.util.List;
-
 @EnableSwagger2
 @EnableDiscoveryClient
 @SpringBootApplication
+@EnableIrenderCore
 public class TranferServiceApplication {
 
     public static void main(String[] args) {
@@ -31,8 +27,8 @@ public class TranferServiceApplication {
 
     ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("TRANFER-API")
-                .description("API for IRENDER TRANFER project")
+                .title("IRENDER TRANFER FILE API")
+                .description("API dùng để upload và download file")
                 .license("IRENDER COMPANY")
                 .licenseUrl("http://irender.vn/")
                 .termsOfServiceUrl("http://irender.vn/")
@@ -50,27 +46,5 @@ public class TranferServiceApplication {
                 .paths(Predicates.not(PathSelectors.regex("/error.*")))
                 .build()
                 .apiInfo(apiInfo());
-    }
-}
-
-
-@RestController
-class ServiceInstanceRestController {
-
-    @Autowired
-    private DiscoveryClient discoveryClient;
-
-    @GetMapping("/discover")
-    public String discoverService() {
-        List<String> serviceIds = this.discoveryClient.getServices();
-
-        if (serviceIds == null || serviceIds.isEmpty()) {
-            return "No services found!";
-        }
-        String html = "<h3>Service Ids:</h3>";
-        for (String serviceId : serviceIds) {
-            html += "<br><a href='showService?serviceId=" + serviceId + "'>" + serviceId + "</a>";
-        }
-        return html;
     }
 }

@@ -4,7 +4,30 @@ server:
 spring:
   application:
     name: tranfer-service
+  messages:
+    basename: messages
+
 eureka:
   client:
     service-url:
       default-zone: http://localhost:8761
+
+irender_upfile:
+  aws:
+    access_key_id: YK3GF3YRGSNAXH45VK5L
+    secret_access_key: 3Yjam6zEcmd01KUaTA6c6LMBelXTXlzOtlovOHL619w
+  s3:
+    bucket: irender
+    region: ap-southeast-1
+  rabbitmq:
+    exchange: irender_upfile.exchange
+    queue: irender_upfile.queue
+    routingKey: irender_upfile.routingkey
+
+irender_upfile_s3:
+  aws:
+    access_key_id: YK3GF3YRGSNAXH45VK5L
+    secret_access_key: 3Yjam6zEcmd01KUaTA6c6LMBelXTXlzOtlovOHL619w
+  s3:
+    bucket: irender
+    region: ap-southeast-1

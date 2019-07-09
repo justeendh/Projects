@@ -7,18 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="irender-security" />
+        <module name="auth-service" />
+        <module name="irender-core" />
+        <module name="irender-queue" />
+        <module name="irender-author-service" />
+        <module name="common-storage" />
+        <module name="server-configs" />
         <module name="service-discovery" />
+        <module name="render-service" />
         <module name="tranfer-service" />
         <module name="proxy-service" />
-        <module name="irender-core" />
-        <module name="irender-security" />
         <module name="api-gateway" />
-        <module name="common-storage" />
-        <module name="irender-author-service" />
-        <module name="render-service" />
         <module name="irender-sql" />
-        <module name="auth-service" />
-        <module name="server-configs" />
+        <module name="common-upload-file" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

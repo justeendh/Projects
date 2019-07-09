@@ -20,6 +20,8 @@
         <module>commons/irender-sql</module>
         <module>commons/irender-security</module>
         <module>commons/irender-author-service</module>
+        <module>commons/irender-queue</module>
+        <module>commons/common-upload-file</module>
     </modules>
 
 
