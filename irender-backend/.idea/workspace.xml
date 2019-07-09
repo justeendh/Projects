@@ -7,19 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a962a6c6-cb64-4a7a-86dc-8f991190d427" name="Default Changelist" comment="add Dockerfile">
+      <change afterPath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/RouterAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/irender-author-service/irender-author-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/irender-author-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/irender-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/server-configs/src/main/resources/config-repo/AuthService.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/server-configs/src/main/resources/config-repo/AuthService.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/irender-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/service/impl/SqlBaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/service/impl/SqlBaseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/irender-sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-sql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/irender-sql/src/main/java/com/common/irendersql/sql/repository/entity/MyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-sql/src/main/java/com/common/irendersql/sql/repository/entity/MyEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/proxy-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/proxy-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/RouteLoggingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/RouteLoggingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/RouterAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/SimpleCORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/SimpleCORSFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/ProxyServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/ProxyServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/api/SwaggerDocumentationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/server-configs/src/main/resources/config-repo/ServiceDiscovery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/server-configs/src/main/resources/config-repo/ServiceDiscovery.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/SwaggerDocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/SwaggerDocumentationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/config/JwtSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/config/JwtSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/constant/TokenType.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/controller/TokenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/controller/TokenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/dto/UserToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/dto/UserToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/exception/AuthExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/exception/AuthExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/exception/InvalidJwtTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/exception/InvalidJwtTokenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/exception/JwtExpiredTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/exception/JwtExpiredTokenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/model/JwtToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/model/JwtToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/service/impl/JwtTokenFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/service/JwtTokenFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,6 +50,8 @@
     <ignored path="$PROJECT_DIR$/cloud/proxy-service/target/" />
     <ignored path="$PROJECT_DIR$/commons/irender-core/target/" />
     <ignored path="$PROJECT_DIR$/commons/irender-sql/target/" />
+    <ignored path="$PROJECT_DIR$/commons/irender-security/target/" />
+    <ignored path="$PROJECT_DIR$/commons/irender-author-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,75 +65,42 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/controller/TokenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="50" column="3" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/RouterAuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="71" lean-forward="true" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+              <caret line="58" column="48" lean-forward="true" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#0#64#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/mapper/UserMapper.java">
+        <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/SimpleCORSFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1501#1502#0" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
-              </folding>
+            <state>
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/irender-sql/src/main/java/com/common/irendersql/sql/repository/SqlBaseRepository.java">
+        <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/dto/UserToken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="72" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/entity/UserEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,50 +109,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/irender-sql/src/main/java/com/common/irendersql/sql/repository/entity/MyEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/service/impl/JwtTokenFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java">
+        <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/exception/AuthExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="32" />
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/ProxyServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="37" />
+              <folding>
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/RouteLoggingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/service/JwtTokenFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud/proxy-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons/irender-security/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -200,20 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud/server-configs/Dockerfile" />
-        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/exception/AuthExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/exception/InvalidJwtTokenException.java" />
-        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/exception/JwtExpiredTokenException.java" />
-        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/dto/LoginForm.java" />
-        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/model/JwtToken.java" />
-        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/constant/TokenType.java" />
-        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/config/JwtSettings.java" />
-        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/service/impl/JwtTokenFactory.java" />
-        <option value="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/HomeController.java" />
-        <option value="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/ModuleConfiguration.java" />
-        <option value="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/SwaggerDocumentationConfig.java" />
-        <option value="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/EnableIrenderCore.java" />
         <option value="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/constant/MyZuulHeaders.java" />
         <option value="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/constant/UserRole.java" />
         <option value="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/dto/ErrorResponse.java" />
@@ -228,7 +217,6 @@
         <option value="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/util/FileUtil.java" />
         <option value="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/controller/BaseApi.java" />
         <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/service/UserService.java" />
-        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java" />
         <option value="$PROJECT_DIR$/commons/irender-sql/src/main/java/com/common/irendersql/sql/query/GenericRsqlSpecBuilder.java" />
         <option value="$PROJECT_DIR$/commons/irender-sql/src/main/java/com/common/irendersql/sql/query/GenericRsqlSpecification.java" />
         <option value="$PROJECT_DIR$/commons/irender-sql/src/main/java/com/common/irendersql/sql/query/RsqlSearchOperation.java" />
@@ -239,18 +227,33 @@
         <option value="$PROJECT_DIR$/commons/irender-sql/src/main/java/com/common/irendersql/irender/sql/config/EnableIrenderSql.java" />
         <option value="$PROJECT_DIR$/commons/irender-sql/src/main/java/com/common/irendersql/irender/sql/mapper/BaseMapper.java" />
         <option value="$PROJECT_DIR$/commons/irender-core/pom.xml" />
-        <option value="$PROJECT_DIR$/services/auth-service/pom.xml" />
         <option value="$PROJECT_DIR$/commons/irender-sql/pom.xml" />
         <option value="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/service/impl/SqlBaseServiceImpl.java" />
         <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/cloud/server-configs/src/main/resources/config-repo/AuthService.yml" />
         <option value="$PROJECT_DIR$/services/auth-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/entity/UserEntity.java" />
         <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/UserRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/commons/irender-sql/src/main/java/com/common/irendersql/sql/repository/entity/MyEntity.java" />
         <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/cloud/server-configs/src/main/resources/config-repo/ServiceDiscovery.yml" />
+        <option value="$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/SwaggerDocumentationConfig.java" />
+        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java" />
+        <option value="$PROJECT_DIR$/services/auth-service/pom.xml" />
         <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/controller/TokenController.java" />
+        <option value="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/config/BeanConfig.java" />
+        <option value="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/exception/AuthExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/commons/irender-security/pom.xml" />
+        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/exception/AuthExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/model/JwtToken.java" />
+        <option value="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/filter/RouterAuthFilter.java" />
+        <option value="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/ProxyServiceApplication.java" />
+        <option value="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/constant/TokenType.java" />
+        <option value="$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/service/JwtTokenFactory.java" />
+        <option value="$PROJECT_DIR$/cloud/proxy-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/RouterAuthFilter.java" />
+        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/dto/UserToken.java" />
+        <option value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/entity/UserEntity.java" />
       </list>
     </option>
   </component>
@@ -273,10 +276,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-490" />
-    <option name="y" value="-23" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="1719" />
+    <option name="y" value="-20" />
+    <option name="width" value="1549" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -286,154 +289,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="irender-core" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="dto" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="mapper" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="model" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="repository" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="repository" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="entity" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="service" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-            <path>
-              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
-              <item name="resources" type="72ca9032:PsiDirectoryNodeCustom" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -456,7 +312,251 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="proxyservice" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="proxyservice" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="api" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="cloud" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="proxy-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="proxyservice" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="filter" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="config" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="constant" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="exception" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="model" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="commons" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irender-security" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="irendersecurity" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="service" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="config" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+            <path>
+              <item name="irenderbackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="irender-backend" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="services" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="auth-service" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="src" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="main" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="java" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="authservice" type="72ca9032:PsiDirectoryNodeCustom" />
+              <item name="controller" type="72ca9032:PsiDirectoryNodeCustom" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,18 +573,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/commons/irender-author-service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1500615" />
     <property name="project.structure.side.proportion" value="0.28405797" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cloud.proxy.proxyservice" />
       <recent name="com.cloud.proxy.proxyservice.api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -582,7 +683,10 @@
       <workItem from="1562380075177" duration="2100000" />
       <workItem from="1562382697180" duration="16310000" />
       <workItem from="1562470050366" duration="1926000" />
-      <workItem from="1562549627773" duration="24924000" />
+      <workItem from="1562549627773" duration="36486000" />
+      <workItem from="1562646880645" duration="1465000" />
+      <workItem from="1562649752175" duration="505000" />
+      <workItem from="1562650356654" duration="1814000" />
     </task>
     <task id="LOCAL-00001" summary="add SwaggerResource">
       <created>1562395664890</created>
@@ -626,11 +730,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562565650115</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add Dockerfile">
+      <created>1562584607053</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562584607053</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81226000" />
+    <option name="totallyTimeSpent" value="96572000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -643,9 +754,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.509915" visible="true" weight="0.23355705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.509915" visible="true" weight="0.19189766" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -669,8 +780,8 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" auto_hide="true" id="Version Control" order="13" sideWeight="0.17449665" weight="0.3286119" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.37315437" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" auto_hide="true" x="26" y="294" width="1484" height="235" id="Run Dashboard" order="16" sideWeight="0.62684566" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.3640725" weight="0.32719395" />
+      <window_info anchor="bottom" x="26" y="294" width="1484" height="235" id="Run Dashboard" order="16" sideWeight="0.6359275" side_tool="true" visible="true" weight="0.32719395" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -725,188 +836,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/dto/DetailForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/constant/TokenType.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/exception/AuthExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/ModuleConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/api/SwaggerDocumentationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/SwaggerDocumentationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/EnableIrenderCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/constant/MyZuulHeaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/constant/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/dto/ErrorResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/dto/MyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/dto/MyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/dto/MyModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/service/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/util/ContextUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/util/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/controller/BaseApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/controller/impl/BaseApiImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/config/JwtSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,30 +915,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud/server-configs/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="91" column="21" selection-start-line="86" selection-start-column="8" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/model/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="8" selection-end-column="30" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/irender-sql/pom.xml">
@@ -1029,26 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/model/JwtToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/service/impl/JwtTokenFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/dto/LoginForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1056,37 +948,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/UserRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/UserRepositoryImpl.java" />
     <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -1118,13 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/dto/UserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -1133,16 +988,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1501#1502#0" expanded="true" />
             <element signature="e#1611#1612#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1157,17 +1002,238 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/model/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/dto/MyModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/api/GatewayApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/server-configs/src/main/resources/config-repo/ProxyService.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/server-configs/src/main/resources/config-repo/ServiceDiscovery.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/irender-core/src/main/java/com/common/irendercore/config/SwaggerDocumentationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/render-service/src/main/java/com/service/renderservice/RenderServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="52" column="5" selection-start-line="31" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/AuthServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="54" />
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/constant/TokenType.java" />
+    <entry file="file://$PROJECT_DIR$/services/auth-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="67" column="21" selection-start-line="63" selection-start-column="8" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/config/BeanConfig.java" />
+    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/dto/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/irender-author-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/irender-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="21" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/model/JwtToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/config/JwtSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/controller/TokenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+        <state relative-caret-position="89">
+          <caret line="67" column="54" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/exception/AuthExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/service/JwtTokenFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/irender-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/proxy-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/RouteLoggingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/ProxyServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/irender-security/src/main/java/com/common/irendersecurity/constant/TokenType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/RouterAuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="58" column="48" lean-forward="true" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/proxy-service/src/main/java/com/cloud/proxy/proxyservice/filter/SimpleCORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/dto/UserToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth-service/src/main/java/com/service/authservice/repository/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

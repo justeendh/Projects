@@ -18,6 +18,8 @@
         <module>services/tranfer-service</module>
         <module>commons/common-storage</module>
         <module>commons/irender-sql</module>
+        <module>commons/irender-security</module>
+        <module>commons/irender-author-service</module>
     </modules>
 
 

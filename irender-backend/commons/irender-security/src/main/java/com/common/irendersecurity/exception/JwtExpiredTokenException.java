@@ -1,4 +1,4 @@
-package com.service.authservice.exception;
+package com.common.irendersecurity.exception;
 
 public class JwtExpiredTokenException extends RuntimeException {
 

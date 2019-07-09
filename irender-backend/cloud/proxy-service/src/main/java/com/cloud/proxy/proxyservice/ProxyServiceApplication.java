@@ -1,7 +1,7 @@
 package com.cloud.proxy.proxyservice;
 
-import com.cloud.proxy.filter.RouteLoggingFilter;
-import com.cloud.proxy.filter.RouterAuthFilter;
+import com.cloud.proxy.proxyservice.filter.RouteLoggingFilter;
+import com.cloud.proxy.proxyservice.filter.RouterAuthFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;

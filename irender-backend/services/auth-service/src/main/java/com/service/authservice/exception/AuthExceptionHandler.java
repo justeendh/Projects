@@ -1,5 +1,7 @@
 package com.service.authservice.exception;
 
+import com.common.irendersecurity.exception.InvalidJwtTokenException;
+import com.common.irendersecurity.exception.JwtExpiredTokenException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

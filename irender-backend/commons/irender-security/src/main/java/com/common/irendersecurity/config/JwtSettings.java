@@ -1,4 +1,4 @@
-package com.service.authservice.config;
+package com.common.irendersecurity.config;
 
 
 import org.springframework.beans.factory.annotation.Value;

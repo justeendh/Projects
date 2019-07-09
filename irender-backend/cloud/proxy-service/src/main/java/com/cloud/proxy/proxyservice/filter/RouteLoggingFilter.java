@@ -1,4 +1,4 @@
-package com.cloud.proxy.filter;
+package com.cloud.proxy.proxyservice.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;

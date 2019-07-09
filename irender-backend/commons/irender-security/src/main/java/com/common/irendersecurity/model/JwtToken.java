@@ -1,4 +1,4 @@
-package com.service.authservice.model;
+package com.common.irendersecurity.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.jsonwebtoken.Claims;

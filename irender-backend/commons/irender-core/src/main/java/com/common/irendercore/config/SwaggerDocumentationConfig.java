@@ -1,5 +1,6 @@
 package com.common.irendercore.config;
 
+import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -16,8 +17,7 @@ public class SwaggerDocumentationConfig {
   ApiInfo apiInfo() {
     return new ApiInfoBuilder()
         .title("topkid-api")
-        .description(
-            "API for bluekara project")
+        .description("API for bluekara project")
         .license("GNU AGPLv3")
         .licenseUrl("https://www.gnu.org/licenses/agpl.txt")
         .termsOfServiceUrl("")
@@ -31,7 +31,7 @@ public class SwaggerDocumentationConfig {
     return new Docket(DocumentationType.SWAGGER_2)
             .select()
             .apis(RequestHandlerSelectors.any())
-            .paths(PathSelectors.any())
+            .paths(Predicates.not(PathSelectors.regex("/error.*")))
             .build()
             .apiInfo(apiInfo());
   }

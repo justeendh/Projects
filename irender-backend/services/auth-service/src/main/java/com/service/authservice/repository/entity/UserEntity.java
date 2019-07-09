@@ -1,10 +1,7 @@
 package com.service.authservice.repository.entity;
 
 import com.common.irendersql.sql.repository.entity.MyEntity;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -20,6 +17,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "user")
+@EqualsAndHashCode(callSuper = false)
 public class UserEntity extends MyEntity implements Serializable {
   @Id
   @Column(name = "id")

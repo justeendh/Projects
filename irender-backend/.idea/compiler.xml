@@ -10,9 +10,11 @@
         <module name="service-discovery" />
         <module name="tranfer-service" />
         <module name="proxy-service" />
-        <module name="common-storage" />
         <module name="irender-core" />
+        <module name="irender-security" />
         <module name="api-gateway" />
+        <module name="common-storage" />
+        <module name="irender-author-service" />
         <module name="render-service" />
         <module name="irender-sql" />
         <module name="auth-service" />

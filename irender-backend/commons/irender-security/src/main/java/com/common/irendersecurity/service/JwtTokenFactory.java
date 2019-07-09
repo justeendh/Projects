@@ -1,13 +1,12 @@
-package com.service.authservice.service.impl;
+package com.common.irendersecurity.service;
 
-import com.service.authservice.config.JwtSettings;
-import com.service.authservice.constant.TokenType;
-import com.service.authservice.dto.UserDto;
-import com.service.authservice.exception.InvalidJwtTokenException;
-import com.service.authservice.exception.JwtExpiredTokenException;
-import com.service.authservice.model.JwtToken;
+import com.common.irendersecurity.config.JwtSettings;
+import com.common.irendersecurity.constant.TokenType;
+import com.common.irendersecurity.exception.InvalidJwtTokenException;
+import com.common.irendersecurity.exception.JwtExpiredTokenException;
+import com.common.irendersecurity.model.JwtToken;
 import io.jsonwebtoken.*;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -27,8 +26,7 @@ public class JwtTokenFactory {
     this.settings = settings;
   }
 
-  public JwtToken createAccessJwtToken(UserDto user) {
-    String username = user.getUsername();
+  public JwtToken createAccessJwtToken(String username, String userId) {
     if (StringUtils.isBlank(username)) {
       throw new IllegalArgumentException("Cannot create JWT Token without userName");
     }
@@ -38,7 +36,7 @@ public class JwtTokenFactory {
     String token = Jwts.builder()
         .setClaims(claims)
         .setIssuer(settings.getTokenIssuer())
-        .setId(user.getUserId())
+        .setId(userId)
         .setIssuedAt(Date.from(currentTime.atZone(ZoneId.systemDefault()).toInstant()))
         .setExpiration(Date.from(currentTime
             .plusSeconds(settings.getTokenExpirationTime())
@@ -57,8 +55,7 @@ public class JwtTokenFactory {
     }
   }
 
-  public JwtToken createRefreshToken(UserDto user) {
-    String username = user.getUsername();
+  public JwtToken createRefreshToken(String username, String userId) {
     if (StringUtils.isBlank(username)) {
       throw new IllegalArgumentException("Cannot create JWT Token without userName");
     }
@@ -68,7 +65,7 @@ public class JwtTokenFactory {
     String token = Jwts.builder()
         .setClaims(claims)
         .setIssuer(settings.getTokenIssuer())
-        .setId(user.getUserId())
+        .setId(userId)
         .setIssuedAt(Date.from(currentTime.atZone(ZoneId.systemDefault()).toInstant()))
         .setExpiration(Date.from(currentTime
             .plusSeconds(settings.getRefreshTokenExpTime())

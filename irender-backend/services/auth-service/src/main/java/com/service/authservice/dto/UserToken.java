@@ -1,10 +1,12 @@
 package com.service.authservice.dto;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 
 @Data
+@EqualsAndHashCode(callSuper = false)
 public class UserToken extends UserDto implements Serializable {
 
   public UserToken() {
