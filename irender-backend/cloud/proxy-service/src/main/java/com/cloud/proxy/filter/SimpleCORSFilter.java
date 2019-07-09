@@ -1,4 +1,4 @@
-package com.cloud.proxy.proxyservice.filter;
+package com.cloud.proxy.filter;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

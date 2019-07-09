@@ -2,6 +2,10 @@
 server:
   port: 8060
 
+app:
+  auth:
+    enableAuth: true
+
 eureka:
   client:
     service-url:
@@ -18,6 +22,7 @@ zuul:
     irender-auth:
       serviceId: auth-service
       path: /auth/**
+      sensitiveHeaders:
       url: http://localhost:8083
     irender-tranfer:
       serviceId: tranfer-service

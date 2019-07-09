@@ -1,4 +1,4 @@
-package com.cloud.proxy.proxyservice.filter;
+package com.cloud.proxy.filter;
 
 import com.common.irendercore.constant.MyZuulHeaders;
 import com.common.irendersecurity.exception.InvalidJwtTokenException;
@@ -29,7 +29,7 @@ public class RouterAuthFilter extends ZuulFilter {
     @Value("${app.auth.enableAuth}")
     private boolean enableAuth;
 
-    private String authUrl = "/auth";
+    private String authUrl = "/auth/auth/login";
 
     @Autowired
     private JwtTokenFactory jwtTokenFactory;
@@ -54,7 +54,7 @@ public class RouterAuthFilter extends ZuulFilter {
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
         String url = request.getRequestURI();
-        if (!this.isIgnoreUrl(url))
+        if (!this.isIgnoreUrl(url)) {
             try {
                 String accessToken = getAccessToken(request.getHeader("Authorization"));
                 JwtToken jwtToken = jwtTokenFactory.createAccessJwtToken(accessToken);
@@ -64,9 +64,11 @@ public class RouterAuthFilter extends ZuulFilter {
                 log.info("(authFilter) exception: {}", ExceptionUtils.getFullStackTrace(ex));
                 if (enableAuth) {
                     ctx.setSendZuulResponse(false);
+                    ctx.setResponseBody(ex.getMessage());
                     ctx.setResponseStatusCode(HttpStatus.SC_UNAUTHORIZED);
                 }
             }
+        }
         return null;
     }
 

@@ -19,12 +19,8 @@ public class JwtTokenFactory {
 
   private static final String TYPE = "type";
 
-  private final JwtSettings settings;
-
   @Autowired
-  public JwtTokenFactory(JwtSettings settings) {
-    this.settings = settings;
-  }
+  private JwtSettings settings;
 
   public JwtToken createAccessJwtToken(String username, String userId) {
     if (StringUtils.isBlank(username)) {

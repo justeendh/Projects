@@ -1,5 +1,7 @@
 package com.service.authservice;
 
+import com.common.irendersecurity.config.JwtSettings;
+import com.common.irendersecurity.service.JwtTokenFactory;
 import com.google.common.base.Predicates;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -50,5 +52,15 @@ public class AuthServiceApplication {
                 .paths(Predicates.not(PathSelectors.regex("/error.*")))
                 .build()
                 .apiInfo(apiInfo());
+    }
+
+    @Bean
+    public JwtTokenFactory jwtTokenFactory() {
+        return new JwtTokenFactory();
+    }
+
+    @Bean
+    public JwtSettings jwtSettings() {
+        return new JwtSettings();
     }
 }
