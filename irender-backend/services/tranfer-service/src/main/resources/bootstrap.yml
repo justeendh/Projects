@@ -5,3 +5,10 @@ spring:
       name : TranferService
       profile: default
       uri: http://localhost:8888/
+
+file-storage:
+  upload-folder: file-upload-local
+
+irender_upfile:
+  s3:
+    url: sgp1.digitaloceanspaces.com

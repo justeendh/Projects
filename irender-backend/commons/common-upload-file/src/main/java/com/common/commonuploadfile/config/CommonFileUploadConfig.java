@@ -13,7 +13,7 @@ public class CommonFileUploadConfig {
   @Value("${file-storage.upload-folder}")
   private String uploadDir;
 
-  @Value("${topkid_upfile.s3.url}")
+  @Value("${irender_upfile.s3.url}")
   private String s3Url;
 
 }

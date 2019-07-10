@@ -19,10 +19,6 @@ irender_upfile:
   s3:
     bucket: irender
     region: ap-southeast-1
-  rabbitmq:
-    exchange: irender_upfile.exchange
-    queue: irender_upfile.queue
-    routingKey: irender_upfile.routingkey
 
 irender_upfile_s3:
   aws:

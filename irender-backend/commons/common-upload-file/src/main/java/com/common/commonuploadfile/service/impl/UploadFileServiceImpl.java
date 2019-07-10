@@ -4,13 +4,11 @@ import com.common.commonuploadfile.config.CommonFileUploadConfig;
 import com.common.commonuploadfile.dto.FileDto;
 import com.common.commonuploadfile.model.FileInfo;
 import com.common.commonuploadfile.service.UploadFileService;
-import com.common.irenderqueue.service.QueueService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FilenameUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
@@ -40,20 +38,11 @@ public class UploadFileServiceImpl implements UploadFileService {
 
   private static final String DEFAULT_FOLDER = "Topkid";
 
-  @Value("${queue.upload-file.exchange}")
-  private String exchange;
-
-  @Value("${queue.upload-file.routingKey}")
-  private String routingKey;
-
-  private final QueueService queueService;
-
   private final CommonFileUploadConfig commonFileUploadConfig;
 
   @Autowired
-  public UploadFileServiceImpl(CommonFileUploadConfig commonFileUploadConfig, QueueService queueService) {
+  public UploadFileServiceImpl(CommonFileUploadConfig commonFileUploadConfig) {
     this.commonFileUploadConfig = commonFileUploadConfig;
-    this.queueService = queueService;
   }
 
   private Path getOrCreateNewPath(String folderName) {
@@ -120,7 +109,7 @@ public class UploadFileServiceImpl implements UploadFileService {
 
 
   public void uploadFileS3(FileInfo fileInfo) {
-    queueService.send(exchange, routingKey, fileInfo);
+
   }
 
 

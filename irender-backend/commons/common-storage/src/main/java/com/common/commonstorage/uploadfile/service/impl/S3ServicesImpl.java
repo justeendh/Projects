@@ -10,7 +10,6 @@ import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.amazonaws.services.s3.model.S3Object;
 import com.common.commonstorage.uploadfile.service.S3Services;
 import com.common.irenderqueue.dto.FileInfo;
-import com.common.irenderqueue.service.QueueService;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,14 +30,6 @@ public class S3ServicesImpl implements S3Services {
   private final AmazonS3 s3client;
 
   private final AmazonS3Client s3clients;
-
-  private final QueueService queueService;
-
-  @Value("${queue.upload-file.retry.exchange}")
-  private String retryExchange;
-
-  @Value("${queue.upload-file.retry.routingKey}")
-  private String retryRoutingKey;
 
   @Value("${file-storage.upload-folder}")
   private String uploadDir;
@@ -61,10 +52,9 @@ public class S3ServicesImpl implements S3Services {
   private static final String SUCCESS = " Success!";
 
   @Autowired
-  public S3ServicesImpl(AmazonS3 s3client, AmazonS3Client s3clients, QueueService queueService) {
+  public S3ServicesImpl(AmazonS3 s3client, AmazonS3Client s3clients) {
     this.s3client = s3client;
     this.s3clients = s3clients;
-    this.queueService = queueService;
   }
 
 
@@ -143,7 +133,6 @@ public class S3ServicesImpl implements S3Services {
   private void retry(FileInfo fileInfo) {
     if (fileInfo.getRetryCount() < RETRY_COUNT_LIMIT) {
       fileInfo.setRetryCount(fileInfo.getRetryCount() + 1);
-      queueService.send(retryExchange, retryRoutingKey, fileInfo);
     }
   }
 }
